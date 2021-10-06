@@ -1,7 +1,7 @@
 {
     "app-id" : "com.retrodev.blastem",
     "runtime" : "org.freedesktop.Platform",
-    "runtime-version" : "18.08",
+    "runtime-version" : "21.08",
     "sdk" : "org.freedesktop.Sdk",
     "command" : "blastem",
     "finish-args" : [
@@ -16,7 +16,7 @@
         "--filesystem=xdg-run/gvfs:ro"
     ],
     "modules" : [
-        "shared-modules/glu/glu-9.0.0.json",
+        "shared-modules/glu/glu-9.json",
         "shared-modules/glew/glew.json",
         {
             "name" : "blastem",
@@ -48,7 +48,10 @@
                 },
                 {
                     "type" : "patch",
-                    "path" : "0001-Add-support-for-Flatpak-config-data-dir-variables.patch"
+                    "paths" : [
+                        "0001-Add-support-for-Flatpak-config-data-dir-variables.patch",
+                        "fix-multiple-definition-errors.patch"
+                    ]
                 },
                 {
                     "type" : "file",
