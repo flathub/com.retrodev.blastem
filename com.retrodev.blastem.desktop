@@ -8,4 +8,4 @@ StartupNotify=false
 Type=Application
 Categories=Game;Emulator;
 MimeType=application/x-genesis-rom;application/x-sms-rom;
-Keywords=emulator;sega;genesis;master;system;sms;
+Keywords=emulator;sega;genesis;mega;drive;master;system;sms;megadrive;
