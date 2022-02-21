@@ -49,8 +49,7 @@
                 {
                     "type" : "patch",
                     "paths" : [
-                        "0001-Add-support-for-Flatpak-config-data-dir-variables.patch",
-                        "fix-multiple-definition-errors.patch"
+                        "0001-Add-support-for-Flatpak-config-data-dir-variables.patch"
                     ]
                 },
                 {
