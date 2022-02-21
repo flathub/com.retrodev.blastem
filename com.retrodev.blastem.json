@@ -35,8 +35,8 @@
             "sources" : [
                 {
                     "type" : "archive",
-                    "url" : "https://www.retrodev.com/repos/blastem/archive/8aeac7bd9fa7.tar.gz",
-                    "sha256" : "af158d3184927ef5210258629859d730956245df925ac81a95637c124d66dbd2"
+                    "url" : "https://www.retrodev.com/repos/blastem/archive/0013362c320c.tar.bz2",
+                    "sha256" : "4e6a937097c868471507d59e4a5a6f0da8b06af44ee9f3d05d530c5348b2ad9b"
                 },
                 {
                     "type" : "script",
