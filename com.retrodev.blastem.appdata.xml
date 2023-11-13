@@ -1,5 +1,5 @@
-<!-- Copyright 2019 Bastien Nocera -->
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2019 Bastien Nocera -->
 <component type="desktop">
   <id>com.retrodev.blastem</id>
   <launchable type="desktop-id">com.retrodev.blastem.desktop</launchable>
