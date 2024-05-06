@@ -18,13 +18,12 @@
   </description>
   <url type="homepage">https://www.retrodev.com/blastem/</url>
   <screenshots>
-    <screenshot type="default" width="640" height="517">https://raw.githubusercontent.com/flathub/com.retrodev.blastem/master/screenshots/blastem-1.png</screenshot>
-    <screenshot width="640" height="517">https://raw.githubusercontent.com/flathub/com.retrodev.blastem/master/screenshots/blastem-2.png</screenshot>
-    <screenshot width="640" height="517">https://raw.githubusercontent.com/flathub/com.retrodev.blastem/master/screenshots/blastem-3.png</screenshot>
+    <screenshot type="default" width="640" height="517"><image>https://raw.githubusercontent.com/flathub/com.retrodev.blastem/master/screenshots/blastem-1.png</image></screenshot>
+    <screenshot width="640" height="517"><image>https://raw.githubusercontent.com/flathub/com.retrodev.blastem/master/screenshots/blastem-2.png</image></screenshot>
+    <screenshot width="640" height="517"><image>https://raw.githubusercontent.com/flathub/com.retrodev.blastem/master/screenshots/blastem-3.png</image></screenshot>
   </screenshots>
   <update_contact>hadess@hadess.net</update_contact>
   <developer_name>Mike Pavone</developer_name>
-  <translation/>
   <content_rating type="oars-1.1"/>
   <releases>
     <release date="2024-04-24" version="0.6.2+nightly-187bc857a76a"/>
