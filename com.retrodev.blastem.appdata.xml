@@ -3,30 +3,39 @@
 <component type="desktop">
   <id>com.retrodev.blastem</id>
   <launchable type="desktop-id">com.retrodev.blastem.desktop</launchable>
-  <name>Blastem</name>
-  <summary>A Sega Mega Drive/Genesis, and Master System emulator</summary>
+  <name>BlastEm</name>
+  <summary>A Sega Mega Drive/Genesis and Master System emulator</summary>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-3.0+</project_license>
   <description>
     <p>
       BlastEm is an open source, highly accurate emulator for the Genesis/Megadrive
-      that runs on modest hardware. It also supports playing back Sega Master System games.
+      that runs on modest hardware. It also supports playing back Sega Master System games, Game Gear games and has experimental support for Sega CD games.
     </p>
     <p>
-      Blastem has support for savestates, Mega/Sega Mouse, XBAND and Saturn keyboard emulation.
+      BlastEm has support for savestates, Mega/Sega Mouse, XBAND and Saturn keyboard emulation.
     </p>
   </description>
   <url type="homepage">https://www.retrodev.com/blastem/</url>
   <screenshots>
-    <screenshot type="default" width="640" height="517">https://raw.githubusercontent.com/flathub/com.retrodev.blastem/master/screenshots/blastem-1.png</screenshot>
-    <screenshot width="640" height="517">https://raw.githubusercontent.com/flathub/com.retrodev.blastem/master/screenshots/blastem-2.png</screenshot>
-    <screenshot width="640" height="517">https://raw.githubusercontent.com/flathub/com.retrodev.blastem/master/screenshots/blastem-3.png</screenshot>
+      <screenshot type="default" width="640" height="517">
+          <image>https://raw.githubusercontent.com/flathub/com.retrodev.blastem/master/screenshots/blastem-1.png</image>
+          <caption>Main Menu</caption>
+      </screenshot>
+      <screenshot width="640" height="517">
+          <image>https://raw.githubusercontent.com/flathub/com.retrodev.blastem/master/screenshots/blastem-2.png</image>
+          <caption>Technoptimistic running on BlastEm</caption>
+      </screenshot>
+      <screenshot width="640" height="517">
+          <image>https://raw.githubusercontent.com/flathub/com.retrodev.blastem/master/screenshots/blastem-3.png</image>
+          <caption>Zero Wing running on BlastEm</caption>
+      </screenshot>
   </screenshots>
   <update_contact>hadess@hadess.net</update_contact>
   <developer_name>Mike Pavone</developer_name>
-  <translation/>
   <content_rating type="oars-1.1"/>
   <releases>
+    <release date="2024-04-29" version="0.6.3-pre-187bc857a76a"/>
     <release date="2019-03-28" version="0.6.2"/>
   </releases>
 </component>

@@ -1,5 +1,5 @@
 [Desktop Entry]
-Name=Blastem
+Name=BlastEm
 Comment=Mega Drive/Genesis Emulator
 Exec=blastem %f
 Icon=com.retrodev.blastem
