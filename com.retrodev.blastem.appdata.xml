@@ -18,9 +18,18 @@
   </description>
   <url type="homepage">https://www.retrodev.com/blastem/</url>
   <screenshots>
-    <screenshot type="default" width="640" height="517">https://raw.githubusercontent.com/flathub/com.retrodev.blastem/master/screenshots/blastem-1.png</screenshot>
-    <screenshot width="640" height="517">https://raw.githubusercontent.com/flathub/com.retrodev.blastem/master/screenshots/blastem-2.png</screenshot>
-    <screenshot width="640" height="517">https://raw.githubusercontent.com/flathub/com.retrodev.blastem/master/screenshots/blastem-3.png</screenshot>
+    <screenshot type="default" width="640" height="517">
+      <image>https://raw.githubusercontent.com/flathub/com.retrodev.blastem/master/screenshots/blastem-1.png</image>
+      <caption><An image of the emulators menu/caption>
+    </screenshot>
+    <screenshot width="640" height="517">
+      <image>https://raw.githubusercontent.com/flathub/com.retrodev.blastem/master/screenshots/blastem-2.png</image>
+      <caption>An image of the emulator running a game</caption>
+    </screenshot>
+    <screenshot width="640" height="517">
+      <image>https://raw.githubusercontent.com/flathub/com.retrodev.blastem/master/screenshots/blastem-3.png</image>
+      <caption>An image of the emulator running a game</caption>
+    </screenshot>
   </screenshots>
   <update_contact>hadess@hadess.net</update_contact>
   <developer_name>Mike Pavone</developer_name>
