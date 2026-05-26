@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Copyright 2019 Bastien Nocera -->
-<component type="desktop">
+<component type="desktop-application">
   <id>com.retrodev.blastem</id>
   <launchable type="desktop-id">com.retrodev.blastem.desktop</launchable>
   <name>Blastem</name>
@@ -17,6 +17,13 @@
     </p>
   </description>
   <url type="homepage">https://www.retrodev.com/blastem/</url>
+  <url type="bugtracker">https://www.retrodev.com/blastem/trac</url>
+  <url type="vcs-browser">https://www.retrodev.com/repos/blastem</url>
+  <developer id="com.retrodev">
+    <name>Mike Pavone</name>
+  </developer>
+  <update_contact>hadess@hadess.net</update_contact>
+  <content_rating type="oars-1.1"/>
   <screenshots>
     <screenshot width="640" height="517">
       <image>https://raw.githubusercontent.com/flathub/com.retrodev.blastem/master/screenshots/blastem-1.png</image>
@@ -31,9 +38,6 @@
       <caption>Playing Zero Wing</caption>
     </screenshot>
   </screenshots>
-  <update_contact>hadess@hadess.net</update_contact>
-  <developer_name>Mike Pavone</developer_name>
-  <content_rating type="oars-1.1"/>
   <releases>
     <release date="2019-03-28" version="0.6.2"/>
   </releases>
