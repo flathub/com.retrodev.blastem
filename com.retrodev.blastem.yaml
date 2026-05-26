@@ -1,0 +1,49 @@
+app-id: com.retrodev.blastem
+runtime: org.freedesktop.Platform
+runtime-version: '24.08'
+sdk: org.freedesktop.Sdk
+command: blastem
+finish-args:
+  # X11 + XShm access
+  - --share=ipc
+  - --socket=x11
+  # Play sounds
+  - --socket=pulseaudio
+  # Joystick and GPU access
+  - --device=all
+  # Get access to the files
+  - --filesystem=home:ro
+  - --filesystem=xdg-run/gvfs:ro
+modules:
+  - shared-modules/glu/glu-9.json
+  - shared-modules/glew/glew.json
+  - name: blastem
+    buildsystem: simple
+    build-commands:
+      - DATA_PATH=/app/share/blastem/ CONFIG_PATH=/app/etc/ make blastem -j $FLATPAK_BUILDER_N_JOBS
+      - install -m0755 -D blastem /app/bin/blastem.bin
+      - install -m0755 -D blastem.sh /app/bin/blastem
+      - install -d /app/share/blastem/
+      - cp -r shaders/ images/ gamecontrollerdb.txt rom.db /app/share/blastem/
+      - install -m0644 -D default.cfg /app/etc/default.cfg
+      - install -m0644 -D ${FLATPAK_ID}.png /app/share/icons/hicolor/256x256/apps/${FLATPAK_ID}.png
+      - install -m0644 -D com.retrodev.blastem.desktop /app/share/applications/com.retrodev.blastem.desktop
+      - install -m0644 -D com.retrodev.blastem.appdata.xml /app/share/metainfo/com.retrodev.blastem.appdata.xml
+    sources:
+      - type: archive
+        url: https://www.retrodev.com/repos/blastem/archive/0013362c320c.tar.bz2
+        sha256: 4e6a937097c868471507d59e4a5a6f0da8b06af44ee9f3d05d530c5348b2ad9b
+      - type: script
+        dest-filename: blastem.sh
+        commands:
+          - mkdir -p $XDG_CONFIG_HOME/blastem/ $XDG_DATA_HOME/blastem
+          - exec /app/bin/blastem.bin "$@"
+      - type: patch
+        paths:
+          - 0001-Add-support-for-Flatpak-config-data-dir-variables.patch
+      - type: file
+        path: com.retrodev.blastem.png
+      - type: file
+        path: com.retrodev.blastem.desktop
+      - type: file
+        path: com.retrodev.blastem.appdata.xml
