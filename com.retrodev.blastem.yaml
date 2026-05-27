@@ -28,7 +28,7 @@ modules:
       - install -m0644 -D default.cfg -t /app/etc/
       - install -m0644 -D ${FLATPAK_ID}.png -t /app/share/icons/hicolor/256x256/apps/
       - install -m0644 -D com.retrodev.blastem.desktop -t /app/share/applications/
-      - install -m0644 -D com.retrodev.blastem.appdata.xml -t /app/share/metainfo/
+      - install -m0644 -D com.retrodev.blastem.metainfo.xml -t /app/share/metainfo/
     sources:
       - type: archive
         url: https://www.retrodev.com/repos/blastem/archive/0013362c320c.tar.bz2
@@ -46,4 +46,4 @@ modules:
       - type: file
         path: com.retrodev.blastem.desktop
       - type: file
-        path: com.retrodev.blastem.appdata.xml
+        path: com.retrodev.blastem.metainfo.xml
