@@ -31,8 +31,8 @@ modules:
       - install -m0644 -D com.retrodev.blastem.metainfo.xml -t /app/share/metainfo/
     sources:
       - type: archive
-        url: https://www.retrodev.com/repos/blastem/archive/732f5689d438.tar.bz2
-        sha256: bf7e0271d83c5ac99e6cfe763e4f6d5f23181dad32e3c5858c1d0bf90d2aeac7
+        url: https://www.retrodev.com/repos/blastem/archive/8013468ed981.tar.bz2
+        sha256: ba3e0946c336fef6c47516e121bfe1e668d25a5a8b3ff9acb733b1e38db7c736
       - type: script
         dest-filename: blastem.sh
         commands:
