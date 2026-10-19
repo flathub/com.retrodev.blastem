@@ -17,6 +17,11 @@
       BlastEm has support for savestates, Mega/Sega Mouse, XBAND and Saturn keyboard emulation.
     </p>
   </description>
+  <supports>
+    <control>pointing</control>
+    <control>keyboard</control>
+    <control>gamepad</control>
+  </supports>
   <url type="homepage">https://www.retrodev.com/blastem/</url>
   <url type="bugtracker">https://www.retrodev.com/blastem/trac</url>
   <url type="vcs-browser">https://www.retrodev.com/repos/blastem</url>
